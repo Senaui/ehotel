@@ -1,0 +1,232 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        *{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100%;
+    display: flex;
+    min-width: 414px;
+    
+   
+    
+}
+
+/* Header , logo */
+#logo{
+    color: darkblue;
+    
+} 
+
+#header{
+    
+    overflow:  hidden;
+    line-height: 65px;
+    font-family: 'Manrope', sans-serif;
+    color: darkblue;
+    font-size: 200%;
+    
+    
+    
+}
+
+#signin{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+  
+#logo{
+    text-decoration: none;
+    float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+    
+}
+/* Where to stay bar */
+
+#wrapper{
+    width: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+}
+
+#wrapper input[type=text] {
+    float: center;
+   padding: 20px;
+    border: black;
+    margin-top: 20px;
+    margin-right: 16px;
+    margin-left: 30px;
+    font-size: 17px;
+    background-color:none;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#wrapper input[type=date] {
+    float: center;
+   padding: 20px;
+    border: black;
+    margin-top: 20px;
+    margin-right: 16px;
+    margin-left: 30px;
+    font-size: 17px;
+    background-color:none;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#wrapper button[type=button] , #button{
+    float: center;
+   padding: 20px;
+    border: black;
+    margin-top: 20px;
+    margin-right: 16px;
+    margin-left: 30px;
+    font-size: 17px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color:rgb(81, 153, 216);
+    color: white;
+}
+
+
+
+
+
+
+
+/* Main Content */
+
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+
+#banner img{
+    width: 100%;
+    padding: 20px;
+}
+
+#hotelChain{
+    padding: 20px;
+    width: auto;
+}
+
+
+#hotelChain p {
+ 
+   
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 20px;
+   
+    
+}
+#header1{
+    text-align: center;
+    padding: 60px;
+    font-size: 40px;
+}
+
+
+
+
+#fairmont, #hilton, #holidayinn, #novotel, #westin {
+    overflow:  hidden;
+    line-height: 50px;
+    font-family: 'Manrope', sans-serif;
+    color: darkblue;
+    font-size: 200%;
+    
+}
+
+
+#discription {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+#discription img {
+    align-items: center;
+    width: 70%;
+    height: 30%;
+    padding: 15px;
+}
+
+  #discription:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+
+
+  @media screen and (max-width:600px) {
+    #discription {
+      width: 100%;
+    }
+  }
+
+/* Footer */
+
+#footer p{
+
+    text-align: center;
+   
+  
+}
+
+#footer{
+    text-align: center;
+    background:none;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: auto;
+    
+   
+
+}
+
+#footer li{
+    text-decoration-color: white;
+    
+}
+
+@media only screen and (max-width:414px){
+    #navbar {
+        width: 100%;
+        
+    }
+}
+
+li{
+    list-style: none;
+}
