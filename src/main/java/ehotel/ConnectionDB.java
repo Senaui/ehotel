@@ -4,9 +4,6 @@ import java.sql.*;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-import java.sql.Date;
 
 public class ConnectionDB {
 
@@ -20,7 +17,7 @@ public class ConnectionDB {
 
     public SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
-    public ArrayList<String> tableName = new ArrayList<String>(Arrays.asList("hotelchain",  "hotel",  "room",  "person",  "manager",  "employee",  "customer",  "reservation",  "history",  "changeroomstatus"));
+    public ArrayList<String> tableName = new ArrayList<String>(Arrays.asList("hotelchain", "hotel", "room", "person", "manager", "employee", "customer", "reservation", "history", "changeroomstatus"));
 
 
     private Connection con = null;
@@ -51,12 +48,12 @@ public class ConnectionDB {
         try {
             Statement st = con.createStatement();
             ResultSet rs = st.executeQuery("SELECT * FROM room");
-            while (rs.next()){
+            while (rs.next()) {
                 System.out.println(rs.getInt(1));
             }
             st.close();
-        }catch(Exception exception) {
-            System.out.println("An exception was thrown:"+exception.getMessage());
+        } catch (Exception exception) {
+            System.out.println("An exception was thrown:" + exception.getMessage());
         }
     }
 

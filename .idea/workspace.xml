@@ -4,11 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="random push" />
+    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="push to in case">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ehotel/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/csi2132p2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/csi2132p2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/CheckIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/CheckIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/ConnectionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/HotelChainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/HotelChainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/HotelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/HotelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/RecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/RecordService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Fairmont/fairmont.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/RoomPage/room.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/RoomPage/room.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/RoomPage/room.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/signin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/signup.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/availabilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/availabilities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/availabilities.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/client.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,13 +56,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2NkahG8e6yMktS6hY4KZ6PpJW76" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +68,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/percy/Downloads/Study@UO/CSI/CSI_2132/ehotel/src/main/webapp/oldFrontEnd",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/percy/Downloads/Study@UO/CSI/CSI_2132/ehotel/src/main/webapp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +82,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main\webapp" />
+      <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main\webapp\SignInPage" />
       <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main\webapp\oldFrontEnd" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -71,6 +100,9 @@
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="/ehotel" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -95,7 +127,9 @@
       <option name="presentableId" value="Default" />
       <updated>1680210652624</updated>
       <workItem from="1680210653686" duration="3625000" />
-      <workItem from="1680277120697" duration="2816000" />
+      <workItem from="1680277120697" duration="4349000" />
+      <workItem from="1680293463562" duration="4940000" />
+      <workItem from="1680301048632" duration="3213000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1680210784499</created>
@@ -125,22 +159,20 @@
       <option name="project" value="LOCAL" />
       <updated>1680279980998</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="random push">
+      <created>1680280061029</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680280061029</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -156,12 +188,22 @@
         </entry>
       </map>
     </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <MESSAGE value="added java file, and jdbc maven" />
     <MESSAGE value="make the frontend kinda work" />
     <MESSAGE value="random push" />
-    <option name="LAST_COMMIT_MESSAGE" value="random push" />
+    <MESSAGE value="push to in case" />
+    <option name="LAST_COMMIT_MESSAGE" value="push to in case" />
   </component>
 </project>

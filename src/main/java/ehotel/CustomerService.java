@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.Statement;
 
 public class CustomerService {
-    public boolean createCustomer(String SIN, String fullName, String pAddress, Date registerDate){
+    public boolean createCustomer(String SIN, String fullName, String pAddress, Date registerDate) {
         try {
             ConnectionDB conDB = new ConnectionDB();
             Connection con = conDB.getConnection();
@@ -23,7 +23,7 @@ public class CustomerService {
 
             stmt = con.prepareStatement(query2);
             stmt.setString(1, SIN);
-            stmt.setDate(2,registerDate);
+            stmt.setDate(2, registerDate);
 
             output = stmt.executeUpdate();
 
@@ -31,7 +31,7 @@ public class CustomerService {
             st.close();
             con.close();
             conDB.close();
-        }catch(Exception exception) {
+        } catch (Exception exception) {
             System.out.println("An exception was thrown:" + exception.getMessage());
             return false;
         }

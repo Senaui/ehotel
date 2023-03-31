@@ -1,6 +1,5 @@
 package ehotel;
 
-import java.awt.print.Book;
 import java.util.Date;
 
 public class Booking {

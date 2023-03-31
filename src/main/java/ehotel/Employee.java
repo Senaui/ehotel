@@ -1,6 +1,6 @@
 package ehotel;
 
-public class Employee extends Person{
+public class Employee extends Person {
     public String roleofemployee;
 
     public String getRoleofemployee() {

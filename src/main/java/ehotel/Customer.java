@@ -1,9 +1,8 @@
 package ehotel;
 
-import java.util.*;
 import java.sql.Date;
 
-public class Customer extends Person{
+public class Customer extends Person {
     public Date bookingDate;
 
     public Date getBookingDate() {

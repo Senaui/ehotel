@@ -10,7 +10,7 @@ import java.util.List;
 public class RoomService {
     public SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
-    public ArrayList<String> tableName = new ArrayList<String>(Arrays.asList("hotelchain",  "hotel",  "room",  "person",  "manager",  "employee",  "customer",  "reservation",  "history",  "changeroomstatus"));
+    public ArrayList<String> tableName = new ArrayList<String>(Arrays.asList("hotelchain", "hotel", "room", "person", "manager", "employee", "customer", "reservation", "history", "changeroomstatus"));
 
     public List<Room> getAvailableRooms(Date startD, Date endD, int capacity, String area, String hotelChain, int category, int totalRoom, double price) {
         LinkedList<Room> result = null;
@@ -32,32 +32,32 @@ public class RoomService {
             result = new LinkedList<Room>();
 
 
-            while(rs.next()){
-                result.add(new Room(rs.getInt("roomNum"),rs.getFloat("price"),
-                        rs.getString("amenity"),rs.getInt("capacity"),
-                        rs.getString("description"),rs.getString("status"),
-                        rs.getString("viewofroom"),rs.getInt("addingBed"),rs.getString("hAddress")));
+            while (rs.next()) {
+                result.add(new Room(rs.getInt("roomNum"), rs.getFloat("price"),
+                        rs.getString("amenity"), rs.getInt("capacity"),
+                        rs.getString("description"), rs.getString("status"),
+                        rs.getString("viewofroom"), rs.getInt("addingBed"), rs.getString("hAddress")));
             }
             rs.close();
             st.close();
-        }catch(Exception exception) {
+        } catch (Exception exception) {
             System.out.println("An exception was thrown:" + exception.getMessage());
         }
         return result;
     }
 
 
-    public void setDStatus(String status, Integer roomNum){
+    public void setDStatus(String status, Integer roomNum) {
         try {
             ConnectionDB conDB = new ConnectionDB();
             Connection con = conDB.getConnection();
             Statement st = con.createStatement();
             String query = "UPDATE room set status = ? WHERE roomNum = ?;";
             PreparedStatement stmt = con.prepareStatement(query);
-            stmt.setString(1,status);
+            stmt.setString(1, status);
             stmt.setInt(2, roomNum);
             int output = stmt.executeUpdate();
-        }catch(Exception exception) {
+        } catch (Exception exception) {
             System.out.println("An exception was thrown:" + exception.getMessage());
         }
     }

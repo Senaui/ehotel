@@ -15,7 +15,7 @@ public class CheckIn {
     private Date endDate;
 
     public CheckIn(Integer sinSsn, Integer roomNumber, Integer checkInId,
-                   Date startDate, Date endDate){
+                   Date startDate, Date endDate) {
         this.sinSsn = sinSsn;
         this.roomNumber = roomNumber;
         this.checkInId = checkInId;
