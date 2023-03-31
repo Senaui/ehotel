@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="make the frontend kinda work">
-      <change afterPath="$PROJECT_DIR$/src/main/csi2132p2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/client.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="random push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680210652624</updated>
       <workItem from="1680210653686" duration="3625000" />
-      <workItem from="1680277120697" duration="2512000" />
+      <workItem from="1680277120697" duration="2816000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1680210784499</created>
@@ -122,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680214321243</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="random push">
+      <created>1680279980998</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680279980998</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +161,7 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="added java file, and jdbc maven" />
     <MESSAGE value="make the frontend kinda work" />
-    <option name="LAST_COMMIT_MESSAGE" value="make the frontend kinda work" />
+    <MESSAGE value="random push" />
+    <option name="LAST_COMMIT_MESSAGE" value="random push" />
   </component>
 </project>
