@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="added java file, and jdbc maven">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Assets/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Assets/fairmont.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Assets/hilton.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Assets/holidayinn.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Assets/novotel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Assets/westin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Fairmont/fairmont.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/RoomPage/room.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/SignInPage/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/SignInPage/signup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/availabilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/client.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="make the frontend kinda work">
+      <change afterPath="$PROJECT_DIR$/src/main/csi2132p2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/client.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +51,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,8 +62,8 @@
       <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main\webapp\oldFrontEnd" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main\webapp" />
       <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main" />
+      <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager">
@@ -89,9 +75,6 @@
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="/ehotel" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
-      <option name="envOptions">
-        <map />
-      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -115,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680210652624</updated>
-      <workItem from="1680210653686" duration="3483000" />
+      <workItem from="1680210653686" duration="3625000" />
+      <workItem from="1680277120697" duration="2512000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1680210784499</created>
@@ -131,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680210962760</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="make the frontend kinda work">
+      <created>1680214321243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680214321243</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,10 +138,26 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <MESSAGE value="added java file, and jdbc maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="added java file, and jdbc maven" />
+    <MESSAGE value="make the frontend kinda work" />
+    <option name="LAST_COMMIT_MESSAGE" value="make the frontend kinda work" />
   </component>
 </project>
