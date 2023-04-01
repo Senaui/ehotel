@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="push to in case">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Customer_register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Employee_register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Room.java" afterDir="false" />
-    </list>
+    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="push to in case" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,11 +96,14 @@
       <predefined_log_file id="Tomcat Host Manager Log" />
       <option name="contextPath" value="/ehotel" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
-          <option name="name" value="Apache Tomcat/10.1.7 (2)" />
-          <option name="path" value="$PROJECT_DIR$/../apache-tomcat-10.1.7" />
+          <option name="name" value="Apache Tomcat/10.1.7" />
+          <option name="path" value="$PROJECT_DIR$/../../apache-tomcat-10.1.7" />
           <option name="version" value="10.1.7.0" />
         </TomcatInfo>
       </option>
@@ -115,6 +113,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Smart Tomcat.run" />
+      <item itemvalue="Smart Tomcat.Tomcat: ehotel" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -178,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680308126709</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="push to in case">
+      <created>1680316283919</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680316283919</updated>
+    </task>
+    <task id="LOCAL-00009" summary="push to in case">
+      <created>1680316303834</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680316303834</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,9 +231,9 @@
     <MESSAGE value="added java file, and jdbc maven" />
     <MESSAGE value="make the frontend kinda work" />
     <MESSAGE value="random push" />
-    <MESSAGE value="push to in case" />
     <MESSAGE value="fixed some bugs" />
     <MESSAGE value="random commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="random commit" />
+    <MESSAGE value="push to in case" />
+    <option name="LAST_COMMIT_MESSAGE" value="push to in case" />
   </component>
 </project>
