@@ -1,6 +1,6 @@
 package ehotel;
 
-public class Room {
+public class  Room {
     private int roomNum;
     private float price;
     private String amenity;
