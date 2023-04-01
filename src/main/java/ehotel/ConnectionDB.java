@@ -11,7 +11,7 @@ public class ConnectionDB {
     private final String ipAddress = "127.0.0.1";
     private final String dbServerPort = "5432";
     // dbName change if needed
-    private final String dbName = "e-hotelDB";
+    private final String dbName = "postgres";
     private final String dbusername = "postgres";
     private final String dbpassword = "12345678";//admin
 

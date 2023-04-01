@@ -61,4 +61,46 @@ public class RoomService {
             System.out.println("An exception was thrown:" + exception.getMessage());
         }
     }
+
+    public void addroom(int roomNum, float price, String amenity, int capacity, String description, String status, String viewofroom, int addingBed, String hAddress) {
+        try {
+            ConnectionDB conDB = new ConnectionDB();
+            Connection con = conDB.getConnection();
+            Statement st = con.createStatement();
+
+            String query = "INSERT INTO room(roomNum, price, amenity, capacity, description, status, viewofroom, addingBed, hAddress)" +
+                    "VALUES (?,?,?,?,?,?,?,?,?);";
+            PreparedStatement stmt = con.prepareStatement(query);
+            stmt.setInt(1, roomNum);
+            stmt.setFloat(2, price);
+            stmt.setString(3, amenity);
+            stmt.setInt(4, capacity);
+            stmt.setString(5, description);
+            stmt.setString(6, status);
+            stmt.setString(7, viewofroom);
+            stmt.setInt(8, addingBed);
+            stmt.setString(9, hAddress);
+
+            int output = stmt.executeUpdate();
+        } catch (Exception exception) {
+            System.out.println("An exception was thrown:" + exception.getMessage());
+        }
+    }
+
+    public void deleteroom(int roomNum) {
+        try {
+            ConnectionDB conDB = new ConnectionDB();
+            Connection con = conDB.getConnection();
+            Statement st = con.createStatement();
+
+            String query = "DELETE FROM room WHERE roomNum = ?;";
+            PreparedStatement stmt = con.prepareStatement(query);
+            stmt.setInt(1, roomNum);
+
+
+            int output = stmt.executeUpdate();
+        } catch (Exception exception) {
+            System.out.println("An exception was thrown:" + exception.getMessage());
+        }
+    }
 }

@@ -34,15 +34,15 @@ CREATE TABLE room
 
 CREATE TABLE person
 (
-    email    VARCHAR(9) PRIMARY KEY,
+    email    VARCHAR(50) PRIMARY KEY,
     fullName VARCHAR(50),
     pAddress VARCHAR(100)
 );
 
 CREATE TABLE manager
 (
-    email      VARCHAR(9),
-    hAddress VARCHAR(50),
+    email       VARCHAR(50),
+    hAddress    VARCHAR(50),
     FOREIGN KEY (hAddress) REFERENCES hotel (address),
     FOREIGN KEY (email) REFERENCES person (email)
 );

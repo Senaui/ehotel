@@ -4,32 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="push to in case">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ehotel/PersonService.java" afterDir="false" />
+    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="fixed some bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/csi2132p2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/csi2132p2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/CheckIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/CheckIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/CheckIn.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/ConnectionDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/HotelChainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/HotelChainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/HotelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/HotelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/RecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/RecordService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/RoomService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Fairmont/fairmont.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/RoomPage/room.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/RoomPage/room.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/RoomPage/room.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/signin.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/signup.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/availabilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/availabilities.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/availabilities.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/client.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +46,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/percy/Downloads/Study@UO/CSI/CSI_2132/ehotel/src/main/webapp",
@@ -92,6 +71,31 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="Tomcat: ehotel" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/ehotel" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.1.7" />
+          <option name="path" value="$USER_HOME$/IdeaProjects/ehotel/apache-tomcat-10.1.7-windows-x64/apache-tomcat-10.1.7" />
+          <option name="version" value="10.1.7.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="ehotel" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="run" type="com.poratu.idea.plugins.tomcat">
       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
       <predefined_log_file enabled="true" id="Tomcat Access Log" />
@@ -129,7 +133,7 @@
       <workItem from="1680210653686" duration="3625000" />
       <workItem from="1680277120697" duration="4349000" />
       <workItem from="1680293463562" duration="4940000" />
-      <workItem from="1680301048632" duration="3213000" />
+      <workItem from="1680301048632" duration="6242000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1680210784499</created>
@@ -166,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680280061029</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed some bugs">
+      <created>1680305143865</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680305143866</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +215,7 @@
     <MESSAGE value="make the frontend kinda work" />
     <MESSAGE value="random push" />
     <MESSAGE value="push to in case" />
-    <option name="LAST_COMMIT_MESSAGE" value="push to in case" />
+    <MESSAGE value="fixed some bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some bugs" />
   </component>
 </project>
