@@ -1,0 +1,308 @@
+Index: src/main/java/ehotel/Room.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ehotel;\n\npublic class Room {\n    private int roomNum;\n    private float price;\n    private String amenity;\n    private int capacity;\n    private String description;\n    private String status;\n    private String viewOfRoom;\n    private int addingBed;\n    private String hAddress;\n\n    public Room(int roomNum, float price, String amenity, int capacity, String description, String status, String viewOfRoom, int addingBed, String hAddress) {\n        this.roomNum = roomNum;\n        this.price = price;\n        this.amenity = amenity;\n        this.capacity = capacity;\n        this.description = description;\n        this.status = status;\n        this.viewOfRoom = viewOfRoom;\n        this.addingBed = addingBed;\n        this.hAddress = hAddress;\n    }\n\n    public int getRoomNum() {\n        return roomNum;\n    }\n\n    public void setRoomNum(int roomNum) {\n        this.roomNum = roomNum;\n    }\n\n    public float getPrice() {\n        return price;\n    }\n\n    public void setPrice(float price) {\n        this.price = price;\n    }\n\n    public String getAmenity() {\n        return amenity;\n    }\n\n    public void setAmenity(String amenity) {\n        this.amenity = amenity;\n    }\n\n    public int getCapacity() {\n        return capacity;\n    }\n\n    public void setCapacity(int capacity) {\n        this.capacity = capacity;\n    }\n\n    public String getDescription() {\n        return description;\n    }\n\n    public void setDescription(String description) {\n        this.description = description;\n    }\n\n    public String getStatus() {\n        return status;\n    }\n\n    public void setStatus(String status) {\n        this.status = status;\n    }\n\n    public String getViewOfRoom() {\n        return viewOfRoom;\n    }\n\n    public void setViewOfRoom(String viewOfRoom) {\n        this.viewOfRoom = viewOfRoom;\n    }\n\n    public int getAddingBed() {\n        return addingBed;\n    }\n\n    public void setAddingBed(int addingBed) {\n        this.addingBed = addingBed;\n    }\n\n    public String gethAddress() {\n        return hAddress;\n    }\n\n    public void sethAddress(String hAddress) {\n        this.hAddress = hAddress;\n    }\n\n    @Override\n    public String toString() {\n        return \"ehotel.Room{\" +\n                \"roomNum=\" + roomNum +\n                \", price=\" + price +\n                \", amenity='\" + amenity + '\\'' +\n                \", capacity=\" + capacity +\n                \", description='\" + description + '\\'' +\n                \", status='\" + status + '\\'' +\n                \", viewOfRoom='\" + viewOfRoom + '\\'' +\n                \", addingBed=\" + addingBed +\n                \", hAddress='\" + hAddress + '\\'' +\n                '}';\n    }\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/ehotel/Room.java b/src/main/java/ehotel/Room.java
+--- a/src/main/java/ehotel/Room.java	(revision b9df2681dd99e0457190078071e430547f1283d1)
++++ b/src/main/java/ehotel/Room.java	(date 1680314279455)
+@@ -1,6 +1,6 @@
+ package ehotel;
+ 
+-public class Room {
++public class  Room {
+     private int roomNum;
+     private float price;
+     private String amenity;
+Index: src/main/webapp/Customer_register.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/webapp/Customer_register.jsp b/src/main/webapp/Customer_register.jsp
+new file mode 100644
+--- /dev/null	(date 1680315545167)
++++ b/src/main/webapp/Customer_register.jsp	(date 1680315545167)
+@@ -0,0 +1,41 @@
++<!DOCTYPE html>
++<html>
++<head>
++<meta charset="UTF-8">
++<title>Register</title>
++</head>
++<script>
++	function validate() {
++		var email = document.getElementById("email");
++		var password = document.getElementById("password");
++
++		var SSN = document.getElementById("ssn");
++		if (email== "" || password == "") {
++			alert("Email or password cannot be empty");
++			return false;
++
++		} else if (ssn != (int)ssn){
++			alert("SSN is not a number!");
++			return false;
++		} else {
++			return true;
++		}
++
++	}
++</script>
++<body>
++
++	<h>Create your account below</h>
++	<form action="customer-register" method="post">
++		First Name: <input id="email" name="emailAddress" type="text" required />
++		<br /> Last Name: <input id="name" name="name" type="text"
++			required /> <br />
++		SSN: <input id="ssn" name="ssn" type="text" required /> <br />Password:
++		<input type="password"  id="password" name="password"
++			required /> <br />
++			 <input type="submit" value="submit" onclick="return validate();" />
++
++	</form>
++
++</body>
++</html>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9a336e8a-ee38-410e-8341-c6ed8ca7b378\" name=\"Changes\" comment=\"random commit\">\n      <change afterPath=\"$PROJECT_DIR$/src/main/webapp/index.jsp\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/csi2132p2.sql\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/csi2132p2.sql\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/SignInPage/signin.css\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/SignInPage/signup.css\" beforeDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n        <option value=\"Jsp File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"LogFilters\">\n    <option name=\"FILTER_ERRORS\" value=\"false\" />\n    <option name=\"FILTER_WARNINGS\" value=\"false\" />\n    <option name=\"FILTER_INFO\" value=\"true\" />\n    <option name=\"FILTER_DEBUG\" value=\"true\" />\n    <option name=\"CUSTOM_FILTER\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2NkahG8e6yMktS6hY4KZ6PpJW76\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"ignore.virus.scanning.warn.message\": \"true\",\n    \"last_opened_file_path\": \"C:/Users/percy/Downloads/Study@UO/CSI/CSI_2132/ehotel/src/main/webapp\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"project.structure.last.edited\": \"Libraries\",\n    \"project.structure.proportion\": \"0.15\",\n    \"project.structure.side.proportion\": \"0.2\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\percy\\Downloads\\Study@UO\\CSI\\CSI_2132\\ehotel\\src\\main\\webapp\" />\n      <recent name=\"C:\\Users\\percy\\Downloads\\Study@UO\\CSI\\CSI_2132\\ehotel\\src\\main\\webapp\\SignInPage\" />\n      <recent name=\"C:\\Users\\percy\\Downloads\\Study@UO\\CSI\\CSI_2132\\ehotel\\src\\main\\webapp\\oldFrontEnd\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\percy\\Downloads\\Study@UO\\CSI\\CSI_2132\\ehotel\\src\\main\" />\n      <recent name=\"C:\\Users\\percy\\Downloads\\Study@UO\\CSI\\CSI_2132\\ehotel\\src\\main\\webapp\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Smart Tomcat.run\">\n    <configuration name=\"Tomcat: ehotel\" type=\"com.poratu.idea.plugins.tomcat\">\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Localhost Log\" />\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Access Log\" />\n      <predefined_log_file id=\"Tomcat Catalina Log\" />\n      <predefined_log_file id=\"Tomcat Manager Log\" />\n      <predefined_log_file id=\"Tomcat Host Manager Log\" />\n      <option name=\"contextPath\" value=\"/ehotel\" />\n      <option name=\"docBase\" value=\"$PROJECT_DIR$/src/main/webapp\" />\n      <option name=\"envOptions\">\n        <map />\n      </option>\n      <option name=\"extraClassPath\" value=\"\" />\n      <option name=\"tomcatInfo\">\n        <TomcatInfo>\n          <option name=\"name\" value=\"Apache Tomcat/10.1.7\" />\n          <option name=\"path\" value=\"$USER_HOME$/IdeaProjects/ehotel/apache-tomcat-10.1.7-windows-x64/apache-tomcat-10.1.7\" />\n          <option name=\"version\" value=\"10.1.7.0\" />\n        </TomcatInfo>\n      </option>\n      <option name=\"vmOptions\" value=\"\" />\n      <module name=\"ehotel\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"run\" type=\"com.poratu.idea.plugins.tomcat\">\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Localhost Log\" />\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Access Log\" />\n      <predefined_log_file id=\"Tomcat Catalina Log\" />\n      <predefined_log_file id=\"Tomcat Manager Log\" />\n      <predefined_log_file id=\"Tomcat Host Manager Log\" />\n      <option name=\"contextPath\" value=\"/ehotel\" />\n      <option name=\"docBase\" value=\"$PROJECT_DIR$/src/main/webapp\" />\n      <option name=\"envOptions\">\n        <map />\n      </option>\n      <option name=\"extraClassPath\" value=\"\" />\n      <option name=\"tomcatInfo\">\n        <TomcatInfo>\n          <option name=\"name\" value=\"Apache Tomcat/10.1.7 (2)\" />\n          <option name=\"path\" value=\"$PROJECT_DIR$/../apache-tomcat-10.1.7\" />\n          <option name=\"version\" value=\"10.1.7.0\" />\n        </TomcatInfo>\n      </option>\n      <option name=\"vmOptions\" value=\"\" />\n      <module name=\"ehotel\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9a336e8a-ee38-410e-8341-c6ed8ca7b378\" name=\"Changes\" comment=\"\" />\n      <created>1680210652624</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1680210652624</updated>\n      <workItem from=\"1680210653686\" duration=\"3625000\" />\n      <workItem from=\"1680277120697\" duration=\"4349000\" />\n      <workItem from=\"1680293463562\" duration=\"4940000\" />\n      <workItem from=\"1680301048632\" duration=\"10847000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"test commit\">\n      <created>1680210784499</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680210784499</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"added java file, and jdbc maven\">\n      <created>1680210962760</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680210962760</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"make the frontend kinda work\">\n      <created>1680214321243</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680214321243</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"random push\">\n      <created>1680279980998</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680279980998</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"random push\">\n      <created>1680280061029</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680280061029</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"fixed some bugs\">\n      <created>1680305143865</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680305143866</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"random commit\">\n      <created>1680308126709</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680308126709</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"RECENT_FILTERS\">\n      <map>\n        <entry key=\"Branch\">\n          <value>\n            <list>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"master\" />\n                </option>\n              </RecentGroup>\n            </list>\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"test commit\" />\n    <MESSAGE value=\"added java file, and jdbc maven\" />\n    <MESSAGE value=\"make the frontend kinda work\" />\n    <MESSAGE value=\"random push\" />\n    <MESSAGE value=\"push to in case\" />\n    <MESSAGE value=\"fixed some bugs\" />\n    <MESSAGE value=\"random commit\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"random commit\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b9df2681dd99e0457190078071e430547f1283d1)
++++ b/.idea/workspace.xml	(date 1680315895416)
+@@ -4,13 +4,11 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="random commit">
+-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
++    <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="push to in case">
++      <change afterPath="$PROJECT_DIR$/src/main/webapp/Customer_register.jsp" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/webapp/Employee_register.jsp" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/csi2132p2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/csi2132p2.sql" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/signin.css" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/signup.css" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Room.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -21,7 +19,6 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="Class" />
+-        <option value="Jsp File" />
+       </list>
+     </option>
+   </component>
+@@ -48,9 +45,10 @@
+   "keyToString": {
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "WebServerToolWindowFactoryState": "false",
+     "ignore.virus.scanning.warn.message": "true",
+-    "last_opened_file_path": "C:/Users/percy/Downloads/Study@UO/CSI/CSI_2132/ehotel/src/main/webapp",
++    "last_opened_file_path": "/Users/uyen/Desktop/CSI2132/ehotel/src/main/webapp",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+@@ -63,17 +61,20 @@
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/main/webapp" />
++      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+       <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main\webapp" />
+       <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main\webapp\SignInPage" />
+       <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main\webapp\oldFrontEnd" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/main/webapp" />
+       <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main" />
+       <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main\webapp" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Smart Tomcat.run">
+-    <configuration name="Tomcat: ehotel" type="com.poratu.idea.plugins.tomcat">
++  <component name="RunManager">
++    <configuration name="run" type="com.poratu.idea.plugins.tomcat">
+       <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+       <predefined_log_file enabled="true" id="Tomcat Access Log" />
+       <predefined_log_file id="Tomcat Catalina Log" />
+@@ -81,39 +82,11 @@
+       <predefined_log_file id="Tomcat Host Manager Log" />
+       <option name="contextPath" value="/ehotel" />
+       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+-      <option name="envOptions">
+-        <map />
+-      </option>
+       <option name="extraClassPath" value="" />
+       <option name="tomcatInfo">
+         <TomcatInfo>
+           <option name="name" value="Apache Tomcat/10.1.7" />
+-          <option name="path" value="$USER_HOME$/IdeaProjects/ehotel/apache-tomcat-10.1.7-windows-x64/apache-tomcat-10.1.7" />
+-          <option name="version" value="10.1.7.0" />
+-        </TomcatInfo>
+-      </option>
+-      <option name="vmOptions" value="" />
+-      <module name="ehotel" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="run" type="com.poratu.idea.plugins.tomcat">
+-      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+-      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+-      <predefined_log_file id="Tomcat Catalina Log" />
+-      <predefined_log_file id="Tomcat Manager Log" />
+-      <predefined_log_file id="Tomcat Host Manager Log" />
+-      <option name="contextPath" value="/ehotel" />
+-      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+-      <option name="envOptions">
+-        <map />
+-      </option>
+-      <option name="extraClassPath" value="" />
+-      <option name="tomcatInfo">
+-        <TomcatInfo>
+-          <option name="name" value="Apache Tomcat/10.1.7 (2)" />
+-          <option name="path" value="$PROJECT_DIR$/../apache-tomcat-10.1.7" />
++          <option name="path" value="$PROJECT_DIR$/../../apache-tomcat-10.1.7" />
+           <option name="version" value="10.1.7.0" />
+         </TomcatInfo>
+       </option>
+@@ -135,7 +108,7 @@
+       <workItem from="1680210653686" duration="3625000" />
+       <workItem from="1680277120697" duration="4349000" />
+       <workItem from="1680293463562" duration="4940000" />
+-      <workItem from="1680301048632" duration="10847000" />
++      <workItem from="1680301048632" duration="3213000" />
+     </task>
+     <task id="LOCAL-00001" summary="test commit">
+       <created>1680210784499</created>
+@@ -172,27 +145,22 @@
+       <option name="project" value="LOCAL" />
+       <updated>1680280061029</updated>
+     </task>
+-    <task id="LOCAL-00006" summary="fixed some bugs">
+-      <created>1680305143865</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1680305143866</updated>
+-    </task>
+-    <task id="LOCAL-00007" summary="random commit">
+-      <created>1680308126709</created>
+-      <option name="number" value="00007" />
+-      <option name="presentableId" value="LOCAL-00007" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1680308126709</updated>
+-    </task>
+-    <option name="localTasksCounter" value="8" />
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+     <option name="RECENT_FILTERS">
+       <map>
+         <entry key="Branch">
+@@ -208,15 +176,6 @@
+         </entry>
+       </map>
+     </option>
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State />
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="test commit" />
+@@ -224,8 +183,6 @@
+     <MESSAGE value="make the frontend kinda work" />
+     <MESSAGE value="random push" />
+     <MESSAGE value="push to in case" />
+-    <MESSAGE value="fixed some bugs" />
+-    <MESSAGE value="random commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="random commit" />
++    <option name="LAST_COMMIT_MESSAGE" value="push to in case" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/main/webapp/Employee_register.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/webapp/Employee_register.jsp b/src/main/webapp/Employee_register.jsp
+new file mode 100644
+--- /dev/null	(date 1680315953797)
++++ b/src/main/webapp/Employee_register.jsp	(date 1680315953797)
+@@ -0,0 +1,41 @@
++<!DOCTYPE html>
++<html>
++<head>
++<meta charset="UTF-8">
++<title>Create your account belowr</title>
++</head>
++<script>
++	function validate() {
++		var email = document.getElementById("email");
++		var password = document.getElementById("password");
++
++		var SSN = document.getElementById("ssn");
++		if (username == "" || password == "") {
++			alert("Email or password cannot be empty");
++			return false;
++
++		} else if (ssn != (int)ssn){
++			alert("SSN is not a number!");
++			return false;
++		} else {
++			return true;
++		}
++
++	}
++</script>
++<body>
++
++	<h>Create your account here</h>
++	<form action="employee-register" method="post">
++		Username <input id="email" name="email" type="text" required /><br />
++		 Name: <input id="firstname" name="firstname" type="text" required />
++		<br />
++		Address: <input id="address" name="address" type="text" required /> <br />
++		Password: <input type="password"
++			id="password" name="password" required /> <br />  <input type="submit" value="submit"
++			onclick="return validate();" />
++
++	</form>
++
++</body>
++</html>
+\ No newline at end of file

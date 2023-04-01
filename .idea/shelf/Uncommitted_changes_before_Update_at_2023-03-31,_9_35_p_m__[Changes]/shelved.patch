@@ -1,0 +1,126 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"9a336e8a-ee38-410e-8341-c6ed8ca7b378\" name=\"Changes\" comment=\"push to in case\">\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/PersonService.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/csi2132p2.sql\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/csi2132p2.sql\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ehotel/Booking.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/Booking.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ehotel/CheckIn.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/CheckIn.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ehotel/ConnectionDB.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/ConnectionDB.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ehotel/Customer.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/Customer.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ehotel/CustomerService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/CustomerService.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ehotel/Employee.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/Employee.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ehotel/HotelChainService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/HotelChainService.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ehotel/HotelService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/HotelService.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ehotel/Manager.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/Manager.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ehotel/RecordService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/RecordService.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/ehotel/RoomService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/ehotel/RoomService.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/Fairmont/fairmont.jsp\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/RoomPage/room.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/RoomPage/room.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/RoomPage/room.jsp\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/SignInPage/index.jsp\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/SignInPage/signin.jsp\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/SignInPage/signup.jsp\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/availabilities.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/availabilities.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/availabilities.jsp\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/client.jsp\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/index.jsp\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/style.css\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"LogFilters\">\n    <option name=\"FILTER_ERRORS\" value=\"false\" />\n    <option name=\"FILTER_WARNINGS\" value=\"false\" />\n    <option name=\"FILTER_INFO\" value=\"true\" />\n    <option name=\"FILTER_DEBUG\" value=\"true\" />\n    <option name=\"CUSTOM_FILTER\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2NkahG8e6yMktS6hY4KZ6PpJW76\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"WebServerToolWindowFactoryState\": \"false\",\n    \"ignore.virus.scanning.warn.message\": \"true\",\n    \"last_opened_file_path\": \"C:/Users/percy/Downloads/Study@UO/CSI/CSI_2132/ehotel/src/main/webapp\",\n    \"node.js.detected.package.eslint\": \"true\",\n    \"node.js.detected.package.tslint\": \"true\",\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\n    \"project.structure.last.edited\": \"Libraries\",\n    \"project.structure.proportion\": \"0.15\",\n    \"project.structure.side.proportion\": \"0.2\",\n    \"vue.rearranger.settings.migration\": \"true\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\percy\\Downloads\\Study@UO\\CSI\\CSI_2132\\ehotel\\src\\main\\webapp\" />\n      <recent name=\"C:\\Users\\percy\\Downloads\\Study@UO\\CSI\\CSI_2132\\ehotel\\src\\main\\webapp\\SignInPage\" />\n      <recent name=\"C:\\Users\\percy\\Downloads\\Study@UO\\CSI\\CSI_2132\\ehotel\\src\\main\\webapp\\oldFrontEnd\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\percy\\Downloads\\Study@UO\\CSI\\CSI_2132\\ehotel\\src\\main\" />\n      <recent name=\"C:\\Users\\percy\\Downloads\\Study@UO\\CSI\\CSI_2132\\ehotel\\src\\main\\webapp\" />\n    </key>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"run\" type=\"com.poratu.idea.plugins.tomcat\">\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Localhost Log\" />\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Access Log\" />\n      <predefined_log_file id=\"Tomcat Catalina Log\" />\n      <predefined_log_file id=\"Tomcat Manager Log\" />\n      <predefined_log_file id=\"Tomcat Host Manager Log\" />\n      <option name=\"contextPath\" value=\"/ehotel\" />\n      <option name=\"docBase\" value=\"$PROJECT_DIR$/src/main/webapp\" />\n      <option name=\"envOptions\">\n        <map />\n      </option>\n      <option name=\"extraClassPath\" value=\"\" />\n      <option name=\"tomcatInfo\">\n        <TomcatInfo>\n          <option name=\"name\" value=\"Apache Tomcat/10.1.7 (2)\" />\n          <option name=\"path\" value=\"$PROJECT_DIR$/../apache-tomcat-10.1.7\" />\n          <option name=\"version\" value=\"10.1.7.0\" />\n        </TomcatInfo>\n      </option>\n      <option name=\"vmOptions\" value=\"\" />\n      <module name=\"ehotel\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"9a336e8a-ee38-410e-8341-c6ed8ca7b378\" name=\"Changes\" comment=\"\" />\n      <created>1680210652624</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1680210652624</updated>\n      <workItem from=\"1680210653686\" duration=\"3625000\" />\n      <workItem from=\"1680277120697\" duration=\"4349000\" />\n      <workItem from=\"1680293463562\" duration=\"4940000\" />\n      <workItem from=\"1680301048632\" duration=\"3213000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"test commit\">\n      <created>1680210784499</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680210784499</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"added java file, and jdbc maven\">\n      <created>1680210962760</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680210962760</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"make the frontend kinda work\">\n      <created>1680214321243</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680214321243</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"random push\">\n      <created>1680279980998</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680279980998</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"random push\">\n      <created>1680280061029</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1680280061029</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"6\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"RECENT_FILTERS\">\n      <map>\n        <entry key=\"Branch\">\n          <value>\n            <list>\n              <RecentGroup>\n                <option name=\"FILTER_VALUES\">\n                  <option value=\"master\" />\n                </option>\n              </RecentGroup>\n            </list>\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"test commit\" />\n    <MESSAGE value=\"added java file, and jdbc maven\" />\n    <MESSAGE value=\"make the frontend kinda work\" />\n    <MESSAGE value=\"random push\" />\n    <MESSAGE value=\"push to in case\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"push to in case\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision dfffbf7be348bf84ea48fcd506d5e0df3ac0dbcc)
++++ b/.idea/workspace.xml	(date 1680312904241)
+@@ -5,31 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="push to in case">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/ehotel/PersonService.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/csi2132p2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/csi2132p2.sql" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Booking.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/CheckIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/CheckIn.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/ConnectionDB.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Customer.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/CustomerService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Employee.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/HotelChainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/HotelChainService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/HotelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/HotelService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Manager.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/RecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/RecordService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/RoomService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Fairmont/fairmont.jsp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/RoomPage/room.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/RoomPage/room.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/RoomPage/room.jsp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/index.jsp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/signin.jsp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/signup.jsp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/availabilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/availabilities.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/availabilities.jsp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/client.jsp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/style.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -62,24 +38,24 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "WebServerToolWindowFactoryState": "false",
+-    "ignore.virus.scanning.warn.message": "true",
+-    "last_opened_file_path": "C:/Users/percy/Downloads/Study@UO/CSI/CSI_2132/ehotel/src/main/webapp",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "project.structure.last.edited": "Libraries",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.2",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/Users/uyen/Desktop/CSI2132/ehotel&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\percy\Downloads\Study@UO\CSI\CSI_2132\ehotel\src\main\webapp" />
+@@ -100,9 +76,6 @@
+       <predefined_log_file id="Tomcat Host Manager Log" />
+       <option name="contextPath" value="/ehotel" />
+       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+-      <option name="envOptions">
+-        <map />
+-      </option>
+       <option name="extraClassPath" value="" />
+       <option name="tomcatInfo">
+         <TomcatInfo>
+@@ -173,6 +146,15 @@
+     <option name="version" value="3" />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+     <option name="RECENT_FILTERS">
+       <map>
+         <entry key="Branch">
+@@ -184,15 +166,6 @@
+                 </option>
+               </RecentGroup>
+             </list>
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State />
+           </value>
+         </entry>
+       </map>
