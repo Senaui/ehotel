@@ -13,7 +13,7 @@ CREATE TABLE hotel
     area                   INTEGER CHECK (category BETWEEN 1 AND 8),
     totalRoom              INTEGER,
     email                  VARCHAR(50),
-    phoneNum               VARCHAR(12),
+    phoneNum               VARCHAR(20),
     addressOfCentralOffice VARCHAR(100),
     FOREIGN KEY (addressOfCentralOffice) REFERENCES hotelchain (addressofcentraloffice)
 );
@@ -57,7 +57,7 @@ CREATE TABLE employee
 
 CREATE TABLE customer
 (
-    email        VARCHAR(50),
+    email        VARCHAR(50) UNIQUE,
     registerDate DATE,
     FOREIGN KEY (email) REFERENCES person (email)
 );
@@ -68,7 +68,7 @@ CREATE TABLE record
     bookingDate Date,
     startDate   DATE,
     endDate     DATE,
-    roomNum     INTEGER,
+    roomID     INTEGER,
     eemail      VARCHAR(50),
     cemail      VARCHAR(50),
     payment     FLOAT,
@@ -77,17 +77,14 @@ CREATE TABLE record
     FOREIGN KEY (roomNum) REFERENCES room (roomNum)
 );
 
-ALTER TABLE customer
-    ADD CONSTRAINT customer_email_unique UNIQUE (email);
-
 CREATE TABLE changeroomstatus
 (
-    roomNum INTEGER,
+    roomID INTEGER,
     status  VARCHAR(10) CHECK (status IN ('booked', 'available')),
-    FOREIGN KEY (roomNum) REFERENCES room (roomNum)
+    FOREIGN KEY (roomID) REFERENCES room (roomNum)
 );
 
-ALTER TABLE hotelchain ALTER COLUMN phoneNum TYPE VARCHAR(20);
+
 
 
 -- Add employees

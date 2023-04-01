@@ -1,16 +1,15 @@
 package ehotel;
 
-import java.sql.Connection;
-import java.sql.Date;
-import java.sql.PreparedStatement;
-import java.sql.Statement;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class CustomerService {
     public boolean createCustomer(String SIN, String fullName, String pAddress, Date registerDate) {
         try {
             ConnectionDB conDB = new ConnectionDB();
             Connection con = conDB.getConnection();
-            Statement st = con.createStatement();
+
             String query1 = "INSERT INTO person (SIN, fullName, pAddress)" +
                     "VALUES (?, ?, ?);";
             String query2 = "INSERT INTO customer (SIN, registerDate)" +
@@ -28,7 +27,6 @@ public class CustomerService {
             output = stmt.executeUpdate();
 
             stmt.close();
-            st.close();
             con.close();
             conDB.close();
         } catch (Exception exception) {
@@ -37,4 +35,6 @@ public class CustomerService {
         }
         return true;
     }
+
+
 }

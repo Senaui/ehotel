@@ -1,5 +1,9 @@
 package ehotel;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.Statement;
+
 public class Employee extends Person {
     public String roleofemployee;
 
@@ -25,4 +29,6 @@ public class Employee extends Person {
                 ", paddress='" + paddress + '\'' +
                 '}';
     }
+
+
 }

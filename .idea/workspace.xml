@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a336e8a-ee38-410e-8341-c6ed8ca7b378" name="Changes" comment="random commit">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ehotel/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ehotel/ManagerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/csi2132p2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/csi2132p2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/signin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SignInPage/signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ehotel/RecordService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ehotel/RecordService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -135,7 +137,7 @@
       <workItem from="1680210653686" duration="3625000" />
       <workItem from="1680277120697" duration="4349000" />
       <workItem from="1680293463562" duration="4940000" />
-      <workItem from="1680301048632" duration="10847000" />
+      <workItem from="1680301048632" duration="13521000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1680210784499</created>
@@ -186,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680308126709</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="random commit">
+      <created>1680312733526</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680312733526</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

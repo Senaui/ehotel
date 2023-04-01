@@ -1,10 +1,9 @@
 package ehotel;
 
-import java.sql.Connection;
-import java.sql.Date;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import java.sql.*;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 public class RecordService {
     public SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
@@ -16,13 +15,13 @@ public class RecordService {
 
             Statement st = con.createStatement();
 
-            ResultSet rs = st.executeQuery("SELECT reference FROM history");
+            ResultSet rs = st.executeQuery("SELECT recordID FROM history");
             Integer newReference = 0;
             if (rs.last()) {
                 newReference = rs.getInt(1) + 1;
             }
 
-            st.executeQuery("INSERT INTO record (recordID, bookingDate, startDate, endDate, roomNum, cSIN )" +
+            st.executeQuery("INSERT INTO record (recordID, bookingDate, startDate, endDate, roomID, cSIN )" +
                     "VALUES (" +
                     newReference.toString() + ", '" +
                     dateFormat.format(bookingD) + "', '" +
@@ -40,28 +39,30 @@ public class RecordService {
         return -1;
     }
 
-    public Integer makeRenting(Date startD, Date endD, Room room, Customer customer, Employee employee, Float payment) {
+    public Integer makeRenting(Date startD, Date endD, int roomID, Customer customer, Employee employee, Float payment) {
         try {
             ConnectionDB conDB = new ConnectionDB();
             Connection con = conDB.getConnection();
 
             Statement st = con.createStatement();
 
-            ResultSet rs = st.executeQuery("SELECT reference FROM history");
+            ResultSet rs = st.executeQuery("SELECT recordID FROM history");
             Integer newReference = 0;
             if (rs.last()) {
                 newReference = rs.getInt(1) + 1;
             }
 
-            st.executeQuery("INSERT INTO record (recordID, startDate, endDate, roomNum, cSIN, eSIN, payment)" +
+            st.executeQuery("INSERT INTO record (recordID, startDate, endDate, roomID, cSIN, eSIN, payment)" +
                     "VALUES (" +
                     newReference.toString() + ", '" +
                     dateFormat.format(startD) + "', '" +
                     dateFormat.format(endD) + "', " +
-                    room.getRoomNum() + ", '" +
+                    roomID + ", '" +
                     customer.SIN + "', '" +
                     employee.SIN + "', " +
                     payment.toString() + ");");
+
+
             rs.close();
             st.close();
             return newReference;
@@ -101,6 +102,40 @@ public class RecordService {
         }
         return -1;
     }
+    public List<Record> getRecordsByPerson(String personEmail) throws Exception {
+        ConnectionDB conDB = new ConnectionDB();
+        Connection connection = conDB.getConnection();
+        List<Record> records = new ArrayList<>();
+
+        try {
+            PreparedStatement statement = connection.prepareStatement(
+                    "SELECT * FROM record WHERE cemail = ? OR eemail = ?"
+            );
+            statement.setString(1, personEmail);
+            statement.setString(2, personEmail);
+            ResultSet resultSet = statement.executeQuery();
+
+            while (resultSet.next()) {
+                int recordID = resultSet.getInt("recordID");
+                Date bookingDate = resultSet.getDate("bookingDate");
+                Date startDate = resultSet.getDate("startDate");
+                Date endDate = resultSet.getDate("endDate");
+                int roomNum = resultSet.getInt("roomNum");
+                String eemail = resultSet.getString("eemail");
+                String cemail = resultSet.getString("cemail");
+                float payment = resultSet.getFloat("payment");
+
+                Record record = new Record(recordID, bookingDate, startDate, endDate, roomNum, eemail, cemail, payment);
+                records.add(record);
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        return records;
+    }
+
 
 
 }
