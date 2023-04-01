@@ -27,10 +27,8 @@
 
 	<h>Create your account below</h>
 	<form action="customer-register" method="post">
-		First Name: <input id="email" name="emailAddress" type="text" required />
-		<br /> Last Name: <input id="name" name="name" type="text"
-			required /> <br />
-		SSN: <input id="ssn" name="ssn" type="text" required /> <br />Password:
+		Name: <input id="email" name="emailAddress" type="text" required />
+		<br /> Password:
 		<input type="password"  id="password" name="password"
 			required /> <br />
 			 <input type="submit" value="submit" onclick="return validate();" />

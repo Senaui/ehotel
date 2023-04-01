@@ -28,7 +28,7 @@
 	<h>Create your account here</h>
 	<form action="employee-register" method="post">
 		Username <input id="email" name="email" type="text" required /><br />
-		 Name: <input id="firstname" name="firstname" type="text" required />
+		 Name: <input id="name" name="name" type="text" required />
 		<br />
 		Address: <input id="address" name="address" type="text" required /> <br />
 		Password: <input type="password"
